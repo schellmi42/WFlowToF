@@ -1,0 +1,4 @@
+tensorboard==2.6.0
+ptlflow==0.2.5
+matplotlib==3.3.4
+imageio==2.9.0

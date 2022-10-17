@@ -1,0 +1,1 @@
+from FFNet import model
