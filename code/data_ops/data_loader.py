@@ -7,8 +7,6 @@ import numpy as np
 import imageio
 
 DATA_PATH = 'data/'
-DATA_PATH = '/Documents/DREAM/denoising/data_full/'
-DATA_PATH = '/home/michael/Documents/DREAM/denoising/data_full/'
 
 S_train = {'path': DATA_PATH,
            'list': 'train_motion.txt',

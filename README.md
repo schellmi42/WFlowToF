@@ -68,10 +68,12 @@ To evaluate the network using the pretrained weights use for example:
 
 
 ```
-python code/train_FFN.py --log trained_weights/FFN_SF_1Tap/ --epochs 0 --eval_test --taps 1
+python train_FFN.py --log trained_weights/FFN_SF_1Tap/ --epochs 0 --eval_test --taps 1
 ```
 
-Pre-trained weights for the RGB-networks are linked in the `ptlflow` documentation.
+Specify the experiment setting using the tags `--taps X` and  `--mult_freq`, to adjust the networks input and output dimensions.
+
+Pre-trained weights for the RGB-networks are linked in the respective `ptlflow` documentation.
 
 ## Citing this work
 

@@ -120,7 +120,7 @@ def train(dataloader, model, loss_fn, optimizer, plot):
     # Compute prediction error
     output = model(corrs)
     flow = torch.cat(output['flows'], dim=1)
-    # flow = torch.clip(flow, min=-50, max=50)
+    flow = torch.clip(flow, min=-50, max=50)
     warped_corrs, masks = warp_correlations_n(corrs, flow, taps=args.taps)
 
     loss_photo = loss_fn(warped_corrs, corrs_static * masks)

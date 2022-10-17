@@ -1,1 +1,1 @@
-from MOM_MRM import MOM
+from MOMnet import MOM
