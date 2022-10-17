@@ -1,4 +1,0 @@
-FFN_SF_1Tap
-test losses: photo: 29.027397 tof: 0.057807 tof_ref: 0.168727 photo_ref: 54.815299 tof_masked: 0.181686 tof_masked_ref: 1.502920 noise_error: 0.042222 valid_ratio: 0.983178 
-FFN_SF_1Tap
-test losses: photo: 29.019158 tof: 0.057791 tof_ref: 0.168730 photo_ref: 54.814411 tof_masked: 0.181896 tof_masked_ref: 1.503172 noise_error: 0.042271 valid_ratio: 0.983189 
